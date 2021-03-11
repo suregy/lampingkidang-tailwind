@@ -207,6 +207,8 @@ module.exports = {
         '"Courier New"',
         "monospace",
       ],
+      mont: ["'Montserrat', sans-serif"],
+      quick: ["'Quicksand', sans-serif"],
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],
