@@ -10,14 +10,26 @@
         @apply absolute;
     }
 
-    .overlay * {
-        @apply transition-all duration-200;
+    .carousel {
+        @apply w-screen relative overflow-hidden;
+        height: 90vh;
     }
 
-    .hero-content {
-        @apply absolute w-full;
-        top: 40%;
-        left: 5%;
+    .slides {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        display: flex;
+        width: 100%;
+        transition: 1s ease-in-out;
+    }
+
+    .slide {
+        @apply absolute;
+        min-width: 100%;
+        min-height: 250px;
+        height: auto;
     }
 }
 
